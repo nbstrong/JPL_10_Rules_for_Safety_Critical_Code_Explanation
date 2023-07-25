@@ -308,13 +308,13 @@ This rule suggests limiting pointer use to a single dereference and avoiding fun
 **Without Rule Applied:**
 ```cpp
 int a = 5;
-int* p = &amp;a;
-int** pp = &amp;p;
+int* p = &a;
+int** pp = &p;
 
 **pp = 10;  // Multiple dereferences
 
 void someFunction() {  // Function pointer
-    void (*fp)() = &amp;someOtherFunction;
+    void (*fp)() = &someOtherFunction;
     (*fp)();
 }
 
@@ -322,7 +322,7 @@ void someFunction() {  // Function pointer
 **With Rule Applied:**
 ```cpp
 int a = 5;
-int* p = &amp;a;
+int* p = &a;
 
 *p = 10;  // Single dereference
 
