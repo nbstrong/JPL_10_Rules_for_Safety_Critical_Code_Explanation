@@ -1,4 +1,4 @@
-This is an explanation with code exambles for NASA Jet Propulsion Lab's "The Power of 10: Rules for Developing Safety-Critical Code"
+This is an explanation with code examples for NASA Jet Propulsion Lab's "The Power of 10: Rules for Developing Safety-Critical Code"
 
 Found here: https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code
 
